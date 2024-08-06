@@ -1,0 +1,799 @@
+body {
+    font-family: 'Poppins';
+}
+
+
+/**********delivery apply page*****/
+.delivery-section {
+    width: 71%;
+    margin: auto;
+    padding-top: 72px;
+}
+
+.delivery-text {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+    margin-bottom: 0px;
+}
+
+.driver-form label {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 13px !important;
+    display: inline-block;
+    line-height: 20px;
+    color: #000000;
+}
+
+.driver-form input[type="text"],
+.driver-form input[type="email"],
+.driver-form input[type="password"],
+.driver-form input[type="date"],
+.driver-form input[type="time"],
+.driver-form input[type="number"] {
+    background-color: #FBFBFB;
+    border: 1px solid #F3F3F3 !important;
+    border-radius: 90px;
+    padding: 15px 40px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.driver-form textarea {
+    width: 100%;
+    background: #FBFBFB;
+    border: 1px solid #F3F3F3 !important;
+    border-radius: 30px;
+    padding: 15px 40px;
+    font-weight: 500;
+    font-size: 14px;
+    height: 100px;
+    line-height: 20px;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    background: url(/img/date.png);
+    background-repeat: no-repeat;
+}
+
+input[type="time"]::-webkit-calendar-picker-indicator {
+    background: url(/img/time.png);
+    background-repeat: no-repeat;
+}
+
+.driver-form .apply-btn {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #000000;
+    padding: 13px 40px;
+    border: none;
+    width: 400px;
+    margin-top: 35px;
+    background-color: #F5E020;
+    border-radius: 10px;
+}
+
+.driver-form .delivery-complete-btn {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #fff;
+    width: 400px;
+    padding: 13px 40px;
+    margin-top: 15px;
+    background: #009F25;
+    border-radius: 10px;
+    border: none;
+}
+
+
+/*****driver delivery summary page****/
+.cancel-btn {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    text-decoration-line: underline;
+    color: #FF0000;
+    margin-top: 30px;
+
+}
+
+/******customer signup page****/
+.login-section {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-top: 35px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: right;
+    color: #000000;
+}
+
+.login-section p {
+    margin-bottom: 0px;
+}
+
+.login-section a,
+.need-info-text a {
+    color: #F5E020;
+    font-weight: 600;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+
+/******complete delivery page****/
+.complete-delivery-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.complete-delivery-tabs {
+    background: #FBFBFB;
+    border: 1px solid #F3F3F3;
+    border-radius: 90px;
+    padding: 13px 33px;
+}
+
+.complete-delivery-tabs a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000
+}
+
+.complete-delivery-section .active {
+    border: 2px solid #009F25;
+}
+
+.complete-delivery-tabs span {
+    margin-right: 15px;
+}
+
+/********login page*****/
+.login-page {
+    width: 53%;
+    margin: auto;
+}
+
+.need-info-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.forgot-password {
+    text-align: end;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+}
+
+/******review-page*******/
+.review-checkbox-area,
+.select-rating {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.form-check {
+    display: inline-block;
+}
+
+.form-check-input {
+    height: 24px;
+    width: 24px;
+    background: #FBFBFB;
+    border: 1px solid #F3F3F3;
+    border-radius: 90px;
+}
+
+.review-checkbox-area .form-check-label {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 6px !important;
+    color: #808080;
+}
+
+.review-textarea {
+    width: 100% !important;
+    height: 150px !important;
+}
+
+.rating-section i {
+    font-size: 24px;
+    color: #D9D9D9;
+}
+
+.select-price {
+    outline: none !important;
+    box-shadow: none !important;
+    border: 1px solid #F3F3F3 !important;
+    background: #FBFBFB;
+    border: 1px solid #F3F3F3;
+    border-radius: 90px;
+    background-image: url(img/Arrow.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-x: 90%;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 12px 20px;
+    color: #808080;
+
+}
+
+.pickup-need {
+    outline: none !important;
+    box-shadow: none !important;
+    border: 1px solid #F3F3F3 !important;
+    background: #FBFBFB;
+    border: 1px solid #F3F3F3;
+    border-radius: 90px;
+    background-image: url(img/Arrow.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-x: 95%;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 12px 20px;
+    color: #808080;
+}
+
+.location-input {
+    background-image: url("./img/location-pin-svgrepo-com.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-position-y: 50%;
+    background-position-x: 2%;
+
+}
+
+.contact-input {
+    background-image: url("./img/Phone.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-position-y: 50%;
+    background-position-x: 5%;
+}
+
+.contact-information {
+    background-image: url("./img/profile-round-1342-svgrepo-com\ 1.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-position-y: 50%;
+    background-position-x: 5%;
+}
+
+/*******approved deliveries**********/
+.approved-deliveries {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+    background: #F8F8F8;
+    border-radius: 20px;
+    border-left: 20px solid #E4E4E4;
+}
+
+.question-img {
+    background-color: #F5E020;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    align-items: center;
+}
+
+.approved-parts {
+    width: 30%;
+    padding: 20px 0px;
+}
+
+.approved-deliveries h5 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.delivery-address {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #2C2C2C;
+}
+
+.delivery-address-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #808080;
+}
+
+.delivery-date {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #009F25;
+}
+
+.cross-img {
+    background: #E51636;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    align-items: center;
+}
+
+.correct-img {
+    background: #009F25;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    align-items: center;
+}
+
+/******store page************/
+.store-section {
+    background: #F8F8F8;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.store-img {
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.store-text {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    padding-left: 30px;
+    color: #000000;
+}
+
+/*******confirmation **********/
+.confirmation-popup {
+    text-align: center;
+    padding:0px 60px;
+}
+
+.confirmation-popup h4 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #000000;
+}
+
+.confirmation-popup p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+}
+.confirmation-section .modal-content{
+    background: #FFFFFF;
+    border-radius: 20px !important;
+}
+.confirmation-section{
+    width: 31%;
+    margin-top: 75px;
+}
+.btn-close {
+    position: absolute;
+    right: 0px;
+    top: -20%;
+    background: transparent;
+    color: #fff;
+    opacity: 1;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+}
+/******upload confirmation list *********/
+.upload-confirmation-logo {
+    font-weight: 600;
+    font-size: 8px;
+    line-height: 11px;
+    display: inline-block;
+    width: 15%;
+    margin-bottom: 0px !important;
+}
+.logo-area {
+    background-color: #FBFBFB;
+    border-bottom: 2px solid orange;
+    padding: 9px 10px 16px;
+    display: flex;
+    align-items: flex-end;
+    gap: 7px;
+    position: relative;
+}
+.logo-area img{
+    width:40px;
+}
+.logo-area:before {
+    content: "";
+    border: 2px solid red;
+    width: 61px;
+    height: 58px;
+    left: 0px;
+    top: 1px;
+    position: absolute;
+    border-radius: 50%;
+}
+.upload-confirmation-page {
+    border: 1px solid #D9D9D9;
+    padding: 10px;
+    width: 51%;
+    margin: auto;
+}
+
+.track-order {
+    margin: auto;
+    padding-bottom: 10px;
+    border: 2px solid red;
+}
+.arrive-order-section{
+    border-bottom: 2px solid #D9D9D9;
+    margin:10px;
+}
+.track-order img {
+    width: 73px;
+}
+.order-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    margin-bottom: 0px;
+}
+.order-number {
+    font-weight: 400;
+    font-size: 16px;
+    padding: 20px 0px 5px;
+    line-height: 35px;
+    margin-bottom: 0px;
+}
+.order-description {
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 17px;
+}
+.order-description-1 {
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 17px;
+}
+.order-description-2 {
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 17px;
+}
+.order-description span{
+    font-weight:700 !important;
+}
+.track-btn{
+    color:#fff;
+    background-color: #f96302;
+    padding:10px 40px;
+    border:none;
+    margin-top: 20px;
+}
+.track-black-box{
+    background-color: #000;
+    width:50%;
+    display: inline-block;
+    height:20px;
+}
+.pickup-section{
+    display: flex;
+    justify-content: space-between;
+}
+.pickup-store-title {
+    font-weight: 700;
+    font-size: 12px;
+    margin-bottom: 0px !important;
+    line-height: 30px;
+}
+.pickup-blackbox{
+    background-color: #000;
+    width:100%;
+    display: inline-block;
+    height:50px;
+}
+.tracking-blackbox{
+    background-color: #000;
+    width:100%;
+    display: inline-block;
+    height:20px;
+}
+td.price-text,.quality,.total-item{
+    font-size: 12px;
+}
+.table-black-box{
+    height:70px;
+    width:70px;
+    background-color: #000;
+}
+table.item-table td {
+    vertical-align: top;
+    padding:10px;
+}
+.item-table{
+    border-bottom: 2px solid #D9D9D9;
+}
+.item-table thead{
+    background-color: #D9D9D9;
+
+}
+.item-table thead th {
+    padding: 50px 10px 10px;
+    font-size: 12px;
+}
+.order-status-btn {
+    color: #f96302;
+    font-size: 12px;
+    background-color: #fff;
+    font-weight: 600;
+    border: 2px solid #f96302 !important;
+    padding: 10px 16px;
+    border: none;
+}
+table.subtotal-table th {
+    font-size: 14px;
+}
+.order-total-btn {
+    background-color: #D9D9D9;
+    padding: 10px 20px;
+    display: inline-block;
+    border: none;
+    font-size: 12px;
+    font-weight: 600;
+}
+.order-btn-area{
+    display: flex;
+    gap:10px;
+}
+.subtotal-table {
+    width: 100%;
+    border: 1px solid #D9D9D9;
+    border-spacing: 7px 4px !important;
+    border-collapse: inherit;
+}
+.subtotal-table td {
+    text-align: right;
+    font-size: 13px;
+}
+.upload-btn {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #000000;
+    padding: 13px 40px;
+    border: none;
+    display: block;
+    background-color: #F5E020;
+    border-radius: 10px;
+    width: 50%;
+    margin: auto;
+    margin-top: 35px;
+}
+/********upload file page***********/
+.upload-image input {
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    cursor: pointer;
+}
+.upload-image{
+    position: relative;
+    border: 1px dashed black;
+    width: 100%;
+    height: 180px ;
+    display:flex;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.upload-image p{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+/***responsive****/
+@media screen and (max-width:991px) {
+    .delivery-section {
+        width: 100%;
+        margin: auto;
+    }
+
+    .driver-form .apply-btn {
+        width: 100%;
+    }
+    .approved-deliveries h5{
+        font-size: 17px;
+    }
+    .complete-delivery-section {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6px;
+        justify-content: space-between;
+    }
+    .upload-confirmation-page {
+        width: 100%;
+    }
+}
+@media screen and (max-width:767px) {
+    .question-img {
+        width: 100%;
+        height: 50px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        border-top-right-radius: 0px;
+    }
+    .approved-parts {
+        width: 100%;
+        padding: 20px 0px;
+    }
+    .approved-deliveries {
+        border-left:0px;
+        border-top: 20px solid #E4E4E4;
+        text-align: center;
+    }
+    .cross-img {
+        width: 100%;
+        height:50px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        border-top-right-radius: 0px;
+    }
+    .correct-img {
+        width: 100%;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        border-top-right-radius: 0px;
+        height:50px;
+    }
+    .complete-delivery-section {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 19px;
+        justify-content: space-between;
+    }
+    .driver-form .apply-btn {
+        width: 100%;
+    }
+    .login-page {
+        width: 100%;
+        margin: auto;
+    }
+    .store-img {
+        border-radius: 10px;
+        width: 150px;
+        height: 120px;
+    }
+    .store-text {
+        font-weight: 600;
+        font-size: 17px;
+    }
+    .upload-btn{
+        width:100%;
+    }
+    .order-status-btn {
+        margin-bottom:20px;
+    }
+    .item-table tr{
+        display: flex;
+        flex-direction: column;
+    }
+    .item-table thead th {
+
+        display: none;
+    }
+    td.price-text,.quality,.total-item{
+        position: relative;
+        padding: 45px 12px 27px !important;
+        font-weight: 600;
+    }
+    .table-item-area{
+        position: relative;
+        padding: 45px 12px 27px !important;
+        margin-top:20px;
+        font-weight: 600;
+    }
+    .table-item-area::before{
+        content: "Item";
+        position: absolute;
+        top: -11px;
+        left: 0px;
+        background-color: #E4E4E4;
+        padding: 10px;
+        width: 100%;
+    }
+    td.price-text::before{
+        content: "Unit Price";
+        position: absolute;
+        top: -11px;
+        left: 0px;
+        background-color: #E4E4E4;
+        padding: 10px;
+        width: 100%;
+    }
+    .quality::before{
+        content: "Qty";
+        position: absolute;
+        top: -11px;
+        left: 0px;
+        background-color: #E4E4E4;
+        padding: 10px;
+        width: 100%;
+    }
+    .total-item::before{
+        content: "Item Total";
+        position: absolute;
+        top: -11px;
+        left: 0px;
+        background-color: #E4E4E4;
+        padding: 10px;
+        width: 100%;
+    }
+    .upload-confirmation-logo {
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 20px;
+        display: inline-block;
+        width: 43%;
+        margin-bottom: 0px !important;
+    }
+}
